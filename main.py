@@ -9,7 +9,7 @@ def main():
     #printing the report of the text
     print(f"The number of words is {count_words}")
     for element in char_list:
-        print(f"The '{element["name"]}' character was found '{element["num"]}'")
+        print(f"The '{element['name']}' character was found '{element['num']}'")
     
 #changing dictinary to list of dictinaries
 def dict_to_list(dict):
